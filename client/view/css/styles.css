@@ -1,0 +1,1527 @@
+* {
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    font-family: Arial;
+    background-color: #ffc2d1;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    margin: 20px auto;
+    width: 300px;
+}
+
+.login-screen {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px
+}
+
+.app-title {
+    text-align: center;
+    color: #777;
+}
+
+.login-form {
+    text-align: center;
+}
+
+.control-group {
+    margin-bottom: 10px;
+}
+
+input {
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    width: 250px;
+    transition: border .5s;
+}
+
+input:focus {
+    border: 2px solid #ffc2d1;
+    box-shadow: none;
+}
+
+.btn_primary_iniciar {
+    border: 2px solid transparent;
+    background: #fb6f92;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 10px;
+    box-shadow: none;
+    transition: 0.25s;
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.btn_primary_iniciar:hover {
+    background-color: #ff8fab;
+    border: 2px solid transparent;
+
+}
+
+.login-link {
+    font-size: 12px;
+    color: #444;
+    display: block;
+    margin-top: 12px;
+}
+
+/* registro */
+.btn_registro {
+    border: 2px solid transparent;
+    background: #5dc1b9;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 10px;
+    box-shadow: none;
+    transition: 0.25s;
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.btn_registro:hover {
+    background-color: #9ce0db;
+}
+
+.btn_registro {
+    border: 2px solid transparent;
+    background: #5dc1b9;
+
+}
+
+.btn_regis {
+    border: 2px solid transparent;
+    background: #fb6f92;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 10px;
+    box-shadow: none;
+    transition: 0.25s;
+    display: block;
+    width: 250px;
+    margin: 8px auto;
+}
+
+.btn_regis:hover {
+    background-color: #ff8fab;
+}
+
+.btn_regis {
+    border: 2px solid transparent;
+    background: #fb6f92;
+
+}
+
+.login_regis {
+    margin: 20px auto;
+    width: 300px;
+}
+
+.login-screen_regis {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px
+}
+
+.app-title_regis {
+    text-align: center;
+    color: #777;
+}
+
+.login-form_regis {
+    text-align: center;
+}
+
+.control-group_regis {
+    margin-bottom: 10px;
+}
+
+input {
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    width: 250px;
+    transition: border .5s;
+    margin:0 0 15px 0;
+}
+
+input:focus {
+    border: 2px solid #ffc2d1;
+    box-shadow: none;
+}
+
+.conf_contra {
+    margin-bottom: 10px;
+}
+
+
+.btn_regis {
+    border: 2px solid transparent;
+    background: #fb6f92;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 10px;
+    box-shadow: none;
+    transition: 0.25s;
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.btn_regis:hover {
+    background-color: #ff8fab;
+}
+
+.btn_regis {
+    border: 2px solid transparent;
+    background: #fb6f92;
+
+}
+
+/* renovar contraseña */
+.container_renov {
+    width: 300px;
+    /* Ancho ajustado */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="email"] {
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn_renov {
+    display: inline-block;
+    width: 96%;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #fb6f92;
+    border: none;
+    border-radius: 4px;
+    top: 15px;
+}
+
+.btn:hover {
+    background-color: #fb6f92;
+}
+
+.btn-primary {
+    background-color: #fb6f92;
+}
+
+.btn-primary:hover {
+    background-color: ff8fab;
+}
+
+.btn-large {
+    font-size: 16px;
+}
+
+.btn-block {
+    display: block;
+}
+
+/* codigo recuperacion */
+.container_recup {
+    width: 300px;
+    /* Ancho ajustado */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+
+
+input[type="submit"] {
+    background-color: #fb6f92;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff8fab;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* perfil */
+/* Contenedor principal del perfil */
+.perfil {
+    margin: 20px auto;
+    width: 50%; /* Ajusta el ancho según sea necesario */
+}
+
+/* Contenedor de la pantalla del perfil */
+.perfil-screen {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra ligera */
+}
+
+/* Estilo del botón de editar perfil */
+.btn_editar_perfil a {
+    display: block;
+    border: 2px solid transparent;
+    background: #fb6f92;
+    color: white;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 10px;
+    box-shadow: none;
+    transition: background-color 0.25s;
+    width: 300px; /* Ancho del botón actualizado */
+    text-align: center; /* Centra el texto dentro del botón */
+    margin: 20px auto; /* Centra el botón horizontalmente */
+}
+
+.btn_editar_perfil a:hover {
+    background-color: #ff8fab;
+}
+
+/* Estilo del nombre del perfil */
+.nombre-perfil {
+    text-align: center;
+    color: #000;
+    margin: 10px 0; /* Espaciado adicional para el nombre */
+}
+
+/* Estilo para la sección de información */
+.inf {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Contenedor de los grupos de control */
+.control-group, .control-group1 {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+/* Estilo para las secciones de datos, información personal y pedidos */
+.inf_per, .datos, .pedidos {
+    background-color: #9b9b9b21;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0; /* Espaciado entre las secciones */
+}
+
+/* menu */
+#contenedor_menu {
+    padding: 0px 30px 0% 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.623);
+    width: 450px;
+    height: 450px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 4%;
+    box-sizing: border-box;
+
+}
+
+.botones_menu {
+
+
+    width: auto;
+    height: auto;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.boton_menu {
+    width: 110px;
+    height: 100px;
+    position: relative;
+    background-color: #f1f1f100;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+
+}
+
+#menu {
+    margin: 60px 0 0;
+}
+
+.img_menu {
+    width: 100px;
+    height: 90px;
+    right: 20%;
+    position: absolute;
+    left: 16px;
+    top: 25px;
+}
+
+.img_menu1 {
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    left: 145px;
+    top: 35px;
+}
+
+.img_menu2 {
+    width: 100px;
+    height: 70px;
+    right: 50%;
+    position: absolute;
+    left: 275px;
+    top: 35px;
+}
+
+.img_menu3 {
+    width: 100px;
+    height: 80px;
+    right: 20%;
+    position: absolute;
+    left: 15px;
+    top: 150px;
+}
+
+.img_menu4 {
+    width: 100px;
+    height: 70px;
+    right: 20%;
+    position: absolute;
+    left: 145px;
+    top: 155px;
+}
+
+.img_menu5 {
+    width: 100px;
+    height: 80px;
+    right: 30%;
+    position: absolute;
+    left: 275px;
+    top: 145px;
+}
+
+/* detalles de producto */
+.flex-container_detalles_prod {
+    background-color: rgba(255, 255, 255, 0.623);
+    border: 3px solid black;
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row-reverse;
+}
+
+.caja_detalles_prod {
+    border: 1px solid rgb(70, 69, 69);
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+
+}
+
+.caja1_detalles_prod {
+    border: 3px solid black;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 50%;
+    height: 600px;
+    line-height: 40px;
+    text-align: left;
+    margin: 5px;
+    padding-left: 15px;
+
+
+
+}
+
+.caja2_detalles_prod {
+    border: 1px solid rgb(70, 69, 69);
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 50%;
+    height: 430px;
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+
+
+}
+
+.flex-item_detalles_prod {
+    border: 3px solid black;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: nowrap;
+    position: relative;
+
+
+
+
+}
+
+.flex_img {
+    display: flex;
+    flex-flow: wrap;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    position: relative;
+
+}
+.img_dtls{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cajas_detalles_prod {
+    position: absolute;
+    display: flex;
+    top: 450px;
+    right: 1px;
+    width: 49.5%;
+    justify-content: space-between;
+
+
+
+
+}
+
+.img_detalles_prod {
+    position: relative;
+    bottom: 25px;
+}
+
+.text-h6_detalles_prod {
+    margin-top: -25px;
+}
+
+.like-wrapper_detalles_prod {
+    --gap: 0.5em;
+    --radius: 0.35em;
+    display: flex;
+    justify-content: center;
+
+    --dot-color: rgb(255, 255, 255);
+    --dot-size: 1px;
+    --dot-space: 22px;
+    background: linear-gradient(90deg,
+            var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+            transparent 1%) center / var(--dot-space) var(--dot-space),
+        linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+            transparent 1%) center / var(--dot-space) var(--dot-space),
+        var(--dot-color);
+    border: 0.1em solid rgb(0, 0, 0);
+    padding: 0.5em;
+    border-radius: var(--radius);
+
+    cursor: pointer;
+    width: 180px;
+    height: 35px;
+    position: relative;
+    right: -45%;
+    font-size: 0.9em;
+
+}
+
+
+.check[type="checkbox"] {
+    display: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: -0.25em;
+    margin-bottom: -0.25em;
+}
+
+.icon {
+    width: 1.5em;
+    height: 1.5em;
+    margin-left: 0.5em;
+    fill: rgb(0, 0, 0);
+    transition: opacity 0.3s ease-in-out;
+}
+
+.icon.active {
+    display: none;
+    fill: #f52121;
+}
+
+.check[type="checkbox"]:checked+.container .icon.active {
+    display: inline-block;
+    animation: wiggle 0.5s ease-in-out;
+}
+
+.check[type="checkbox"]:checked+.container .icon.inactive {
+    display: none;
+}
+
+.like-text {
+    margin-left: 0.5em;
+    padding: 0.5em;
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 0.7em;
+}
+
+@keyframes wiggle {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(-10deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    75% {
+        transform: rotate(-10deg);
+    }
+}
+
+.Btn_detalles_prod {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 45px;
+    height: 35px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition-duration: .3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+    background-color: black;
+    bottom: 38px;
+    border-radius: 15%;
+    left: 5%;
+    top: -35px;
+}
+
+/* plus sign */
+.sign_detalles_prod {
+    width: 100%;
+    font-size: 2em;
+    color: white;
+    transition-duration: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* text */
+.text_detalles_prod {
+    position: absolute;
+    right: 0%;
+    left: 30%;
+    width: 0%;
+    opacity: 0;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+    transition-duration: .3s;
+}
+
+/* hover effect on button width */
+.Btn_detalles_prod:hover {
+    width: 125px;
+    border-radius: 0px;
+    transition-duration: .3s;
+    border-radius: 6%;
+}
+
+.Btn_detalles_prod:hover .sign_detalles_prod {
+    width: 30%;
+    transition-duration: .3s;
+    padding-left: 20px;
+
+}
+
+/* hover effect button's text */
+.Btn_detalles_prod:hover .text_detalles_prod {
+    opacity: 1;
+    width: 70%;
+    transition-duration: .3s;
+    padding-right: 20px;
+
+}
+
+/* button click effect*/
+.Btn_detalles_prod:active {
+    transform: translate(2px, 2px);
+
+}
+
+#select_detalles_prod {
+    position: relative;
+    bottom: 3%;
+    left: 15px;
+    display: flex;
+}
+/*citas*/
+/* General container */
+.container_citas {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    width: 80%;
+    margin: 0 auto; /* Centra el contenedor horizontalmente en su contenedor padre */
+
+}
+
+/* Calendar styling */
+.calendar {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.623);
+    border: 3px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* Para mantener la estructura vertical */
+}
+
+/* Header styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    font-weight: bold;
+    text-align: center; /* Alinea el texto en el centro */
+}
+
+/* Days of the week styling */
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background-color: #f8f9fa;
+    font-weight: bold;
+    text-align: center; /* Centra el texto en los días de la semana */
+}
+
+.days div {
+    padding: 10px;
+    /* Eliminado border-bottom */
+}
+
+/* Dates styling */
+.dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.dates div {
+    padding: 10px;
+    text-align: center; /* Centra el texto en las fechas */
+    /* Eliminado border */
+}
+
+
+
+/* Appointments container */
+.appointments-container {
+    width: 100%;
+    max-width: 900px;
+    background-color: rgba(255, 255, 255, 0.623);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 3px solid black;
+    padding: 20px;
+    margin: 0 auto; /* Centra el contenedor de citas horizontalmente */
+}
+
+/* Header for appointments table */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Appointments table */
+.appointments-table {
+    display: flex;
+    flex-direction: column;
+}
+
+.appointments-header, .appointment-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+    /* Eliminado border-bottom */
+    text-align: center; /* Centra el texto en la tabla de citas */
+}
+
+.appointments-header {
+    background-color: #000000;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header-item, .row-item {
+    text-align: center; /* Centra el texto en cada celda */
+    padding: 8px;
+    /* Eliminado border-bottom */
+}
+
+/* Actions buttons */
+.actions {
+    display: flex;
+    justify-content: center; /* Centra los botones de acción horizontalmente */
+}
+
+.action-btn {
+    background-color: #202020;
+    border: none;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+}
+
+.action-btn:hover {
+    background-color: #34343496;
+}
+
+.delete-btn {
+    background-color: #818181;
+}
+
+.delete-btn:hover {
+    background-color: #5d08118a;
+}
+.hidden {
+    display: none;
+}
+
+/* Toggle button */
+#toggle-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center; /* Alinea el texto del botón de alternancia */
+}
+
+#toggle-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* inventario */
+.inventory-container {
+    width: 50%;
+    max-width: 900px;
+    background-color: rgba(255, 255, 255, 0.623);
+    border: 3px solid black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+.inventory-content {
+    width: 100%;
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.inventory-table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.inventory-header,
+.inventory-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+.inventory-header {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    font-weight: bold;
+    text-align: center; /* Centra el texto dentro del header */
+}
+
+.header-cell,
+.row-cell {
+    text-align: center;
+    padding: 8px;
+}
+
+.inventory-row {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.row-actions {
+    display: flex;
+    justify-content: center;
+}
+
+.btn_invt {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+    text-align: center; /* Centra el texto dentro del botón */
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 17px;
+    left: 77%;
+    position: absolute;
+    top: 45%;
+}
+
+.btn_invt:hover {
+    background-color: rgba(0, 0, 0, 0.504);
+}
+
+.btn_invt_2 {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: #000000;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+    text-align: center; /* Centra el texto dentro del botón */
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 17px;
+    left: 80%;
+    position: absolute;
+    top: 40%;
+}
+
+.btn_invt_2:hover {
+    background-color: rgba(11, 11, 11, 0.504);
+}
+
+.hidden-row {
+    display: none;
+}
+
+#toggle-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center; /* Centra el texto dentro del botón */
+}
+
+#toggle-button:hover {
+    background-color: rgba(0, 0, 0, 0.504);
+}
+
+/* informacion empleado */
+
+
+.row_barra-sup_inf_empl{
+    height: 100px;
+    width: 2000px;
+    display: flex;
+    border: 3px solid black;
+    background-color: #ffc2d1c7;
+    position: relative;
+    bottom: 40px;
+    left: 0%;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+    text-align: center;
+}
+/* Contenedor principal para la información del empleado */
+.container_inf_empl {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffc2d1;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    border-radius: 2%;
+    border: 3px solid black;
+    padding: 20px; /* Añadido padding para espaciado */
+}
+
+/* Columnas de información */
+.columnas_inf_empl {
+    width: 50%;
+    padding: 5%;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.623);
+    border: 3px solid black;
+    border-radius: 8px; /* Añadido para bordes redondeados */
+}
+
+/* Variables de color */
+:root {
+    --background-color: #64646400;
+}
+
+/* Contenedor para contenido adicional */
+#contenedor_inf_empl {
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 450px;
+    height: 450px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 4%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center; /* Centra el contenido verticalmente */
+    justify-content: center; /* Centra el contenido horizontalmente */
+}
+
+/* Menú */
+#menu_inf_empl {
+    margin-top: 60px;
+}
+
+/* Barra superior */
+.barra-sup_inf_empl {
+    box-sizing: border-box;
+    height: 80px; /* Ajustado para una altura fija */
+    border-bottom: 2px solid black; /* Usar border-bottom para barra inferior */
+    background-color: var(--background-color);
+}
+
+/* Estilos de fondo para el navbar */
+.bg-body-tertiary_inf_empl {
+    --bs-bg-opacity: 1;
+    background-color: var(--background-color) !important;
+}
+
+/* Logo */
+.imagen_inf_empl {
+    width: 100px;
+}
+
+/* Botones de la interfaz */
+.btn_inf_empl {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+    background-color: white; /* Añadido para fondo blanco en botones */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Títulos */
+.titulo_inf_empl {
+    color: white;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+/* Selección de catálogo y productos */
+.seleccion-catalogo_inf_empl, .productos_inf_empl {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 281px; /* Ajustado para altura fija */
+    width: 15%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra el contenido */
+    text-align: center;
+}
+
+/* Iconos */
+.iconos_inf_empl {
+    width: 80px;
+}
+
+/* Items */
+.items_inf_empl {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 35%;
+    margin: auto;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.items_inf_empl img {
+    width: 50px;
+}
+
+/* Tabla */
+.table_inf_empl {
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse; /* Para bordes colapsados */
+}
+
+.table_inf_empl input {
+    width: 50px;
+    border: none;
+    text-align: center;
+}
+
+/* Ajustes adicionales para la tabla */
+.table_inf_empl button {
+    border: none;
+    text-align: center;
+}
+/* Inf_clientes */
+#contenedor_inf_clientes{
+    padding: 0px 30px 0% 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.623);
+    width: 750px; 
+    height: 480px;
+    text-align: center;
+    border: 3px solid black; 
+    border-radius: 4%;
+    box-sizing: border-box;
+    
+}
+
+.botones_cliente{
+
+    
+    width: auto;
+    height: auto;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.boton_cliente{
+    width: 200px;
+    height: 100px; 
+    position: relative;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin:10px ;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    text-align: center;
+
+}
+#inf_clientes{
+    margin: 60px 0  0 ;
+}
+.img_cliente{
+    width: 30px;
+    height: 25px;
+    right: 20%;
+    position: absolute;
+    left: 16px;
+    top: 70px;
+}
+.img_cliente2{
+    width: 30px;
+    height: 25px;
+    right: 50%;
+    position: absolute;
+    left: 235px;
+    top: 70px;
+}
+.img_cliente3{
+    width: 30px;
+    height: 25px;
+    right: 20%;
+    position: absolute;
+    left: 460px;
+    top: 70px;
+}
+.img_cliente4{
+    width:30px;
+    height: 25px;
+    right: 20%;
+    position: absolute;
+    left: 18px;
+    top: 195px;
+}
+.img_cliente5{
+width: 30px;
+height: 25px;
+right: 30%;
+position: absolute;
+left: 235px;
+top: 195px;
+}
+.img_cliente6{
+width: 30px;
+height: 25px;
+right: 90%;
+position: absolute;
+left: 460px;
+top: 195px;
+}
+
+.bola1 {
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+    top: 365px;
+    position: relative;
+    border-radius: 50%; /* 90% no crea una bola perfecta, usa 50% */
+    right: 99px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px; /* Igual al alto de la bola para centrar verticalmente el texto */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bola2 {
+    width: 30px;
+    height: 30px;
+    background-color: #000000;
+    top: 365px;
+    position: relative;
+    border-radius: 50%; /* 90% no crea una bola perfecta, usa 50% */
+    right: -92px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px; /* Igual al alto de la bola para centrar verticalmente el texto */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .bola3 {
+        width: 30px;
+        height: 30px;
+        background-color: #000000;
+        top: 365px;
+        position: relative;
+        border-radius: 50%; /* 90% no crea una bola perfecta, usa 50% */
+        right: -282px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 30px; /* Igual al alto de la bola para centrar verticalmente el texto */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .bola4 {
+        width: 30px;
+        height: 30px;
+        background-color: #000000;
+        top: 487px;
+        position: relative;
+        border-radius: 50%; /* 90% no crea una bola perfecta, usa 50% */
+        right: 189px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 30px; /* Igual al alto de la bola para centrar verticalmente el texto */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .bola5 {
+        width: 30px;
+        height: 30px;
+        background-color: #000000;
+        top: 487px;
+        position: relative;
+        border-radius: 50%; /* 90% no crea una bola perfecta, usa 50% */
+        right: -2px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 30px; /* Igual al alto de la bola para centrar verticalmente el texto */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bola6 {
+        width: 30px;
+        height: 30px;
+        background-color: #000000;
+        top: 487px;
+        position: relative;
+        border-radius: 50%; /* 90% no crea una bola perfecta, usa 50% */
+        right: -192px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 30px; /* Igual al alto de la bola para centrar verticalmente el texto */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+.bolas{
+    display: flex;
+    flex-wrap: wrap;
+    top: 36px;
+    right: 140px;
+    position: relative;
+
+}
+.texto {
+    margin-top: 5px;
+    color:#444;
+}
+.numeros {
+    margin-top: -14px;
+    color:#444;
+    position: relative;
+    right: -8px;
+}
+/*compras*/
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+
+}
+
+.compras_container {
+    width: 100%;
+    max-width: 900px;
+    background-color: rgba(255, 255, 255, 0.623);
+    border: 3px solid black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.compras_table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.compras_header,
+.compras_row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas para encabezados y filas */
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+.compras_header {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header_item,
+.row_item {
+    text-align: center;
+    padding: 8px;
+}
+
+.compras_row {
+    background-color: rgba(255, 255, 255, 0.217);
+    border-bottom: 1px solid #ddd;
+}
+
+.compras_actions {
+    display: flex;
+    justify-content: center;
+}
+
+.compras_action_btn {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: #fff;
+    padding: 8px 16px; /* Ajustado para un tamaño de botón más grande */
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px; /* Ajustado para mejor visualización */
+}
+
+.compras_action_btn:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Más visible al pasar el cursor */
+}
+
+.compras_hidden {
+    display: none;
+}
+
+#compras_toggle_button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#compras_toggle_button:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Más visible al pasar el cursor */
+}
