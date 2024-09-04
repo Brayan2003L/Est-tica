@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,28 +9,49 @@
     <link rel="stylesheet" href="../client/view/css/style1.css">
     <link rel="stylesheet" href="../client/view/css/styles.css">
 </head>
+
 <body>
-    <div id="contenedor_menu">
-        <div id="menu">
-            <h1>Menú Inicio</h1>
-            <h5>Seleccione una acción</h5>
-        </div>
-        <div class="botones_menu">
-            <img class="img_menu" src="./view/img/">
-            <a class="boton_menu" href="/Perfil/perfil.html">Perfil</a>
-            <img class="img_menu1" src="./imagenes/person-standing.svg">
-            <a class="boton_menu" href="/Menu/menu.html">Corporal</a>
-            <img class="img_menu2" src="./imagenes/clock-history.svg">
-            <a class="boton_menu" href="/Menu/menu.html">Relajante</a>
-            <img class="img_menu3" src="./imagenes/car-front.svg">
-            <a class="boton_menu" href="">Atencion</a>
-            <img class="img_menu4" src="./imagenes/person-hearts.svg">
-            <a class="boton_menu" href="">Facial</a>
-            <img class="img_menu5" src="../imagenes/box-arrow-right.svg">
-            <a class="boton_menu" href="/index.html">Cerrar sesion</a>
-            <div>
+    <div class="login">
+        <div class="login-screen">
+            <div class="app-title">
+                <h1>Bienvenido</h1>
+            </div>
+
+            <div class="login-form">
+                <div class="control-group">
+                    <input type="text" class="login-field" placeholder="Usuario" id="login-name" required>
+                    <label class="login-field-icon fui-user" for="login-name"></label>
+                </div>
+
+                <div class="control-group">
+                    <input type="password" class="login-field" placeholder="Contraseña" id="login-pass" required>
+                    <label class="login-field-icon fui-lock" for="login-pass"></label>
+                </div>
+
+                <button class="btn_primary_iniciar" id="login-btn" onclick="abrirMenu()">Iniciar</button>
+                <a class="btn_registro" onclick="abrirRegistro()">Registrarse</a>
+                <a class="login-link" onclick="abrirRecuperarContrasena()">¿Olvidó su contraseña?</a>
             </div>
         </div>
     </div>
+
+    <script>
+        document.getElementById('login-btn').addEventListener('click', function (event) {
+            var username = document.getElementById('login-name').value;
+            var password = document.getElementById('login-pass').value;
+
+            if (username === '' || password === '') {
+                alert('Por favor, complete todos los campos.');
+                event.preventDefault(); // Evita la acción predeterminada del botón
+            } else {
+                window.location.href = './Menu/menu.html'; // Redirige solo si los campos están completos
+            }
+        });
+    </script>
 </body>
+
 </html>
+
+
+<!-- Sript de una validacion de usuario -->
+
