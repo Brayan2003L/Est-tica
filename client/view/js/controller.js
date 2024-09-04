@@ -29,13 +29,13 @@ function abrirCatalogo(){
     vista.mostrarPlantilla("temp-catalogo","container")
 }
 function abrirDetallesProducto(){
-    vista.mostrarPlantilla("temp-detalle-producto","container")
+    vista.mostrarPlantilla("temp-detalles-producto","container")
 }
 function abrirCanasta(){
     vista.mostrarPlantilla("temp-canasta","container")
 }
 function abrirDetallesCompra(){
-    vista.mostrarPlantilla("temp-detalle-producto","container")
+    vista.mostrarPlantilla("temp-detalles-compra","container")
 }
 function abrirCentroDudas(){
     vista.mostrarPlantilla("temp-canasta","container")
