@@ -9,7 +9,9 @@ window.onload=function(){
 function login() {
     vista.mostrarPlantilla("temp-login", "container")
 }
-
+function barraSuperior() {
+    vista.mostrarPlantilla("temp-barraSuperior", "container")
+}
 function abrirRegistro(){
     vista.mostrarPlantilla("temp-registro", "container")
 }
