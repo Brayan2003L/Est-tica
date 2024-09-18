@@ -14,3 +14,8 @@ document.addEventListener('DOMContentLoaded', function() {
         toggleButton.textContent = rowsVisible ? 'Mostrar menos' : 'Mostrar más';
     });
 });
+
+
+
+
+

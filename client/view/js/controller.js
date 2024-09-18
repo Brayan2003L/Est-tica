@@ -19,7 +19,7 @@ function abrirRecuperarContrasena() {
     vista.mostrarPlantilla("temp-recuperar-contrasena", "container")
 }
 function abrirValidarCodigo() {
-    vista.mostarPlantilla("tempe-validar-codigo", "container");
+    vista.mostarPlantilla("temp-validar-codigo", "container");
 }
 function abrirMenu() {
     vista.mostrarPlantilla("temp-menu-inicio", "container")
@@ -49,7 +49,7 @@ function abrirAlmacenamiento(){
     vista.mostrarPlantilla("temp-centro-dudas","container")
 }
 function abrirCitasAdmin(){
-    vista.mostrarPlantilla("temp-menu-empleado","container")
+    vista.mostrarPlantilla("temp-citas-admin","container")
 }
 function abrirInfoClientes(){
     vista.mostrarPlantilla("temp-almacenamiento","container")
@@ -57,4 +57,6 @@ function abrirInfoClientes(){
 function abrirCompras(){
     vista.mostrarPlantilla("temp-catalogo","container")
 }
-
+function abrirMenuEmpleado(){
+    vista.mostrarPlantilla("temp-menu-empleado","container")
+}
